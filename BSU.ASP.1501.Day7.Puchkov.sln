@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTimer.ConsoleUI", "Cu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonnachiGenerator", "FibonnachiGenerator\FibonnachiGenerator.csproj", "{CF8E0C97-66F7-4638-A172-A583F585FC6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericQueue", "GenericQueue\GenericQueue.csproj", "{BF36C92A-7EED-4916-8D90-D0FD198B442C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomGenericQueue.ConsoleUI", "CustomGenericQueue.ConsoleUI\CustomGenericQueue.ConsoleUI.csproj", "{2E8C70B0-9072-49B3-A7D2-B3F51B6E4268}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{CF8E0C97-66F7-4638-A172-A583F585FC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF8E0C97-66F7-4638-A172-A583F585FC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF8E0C97-66F7-4638-A172-A583F585FC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF36C92A-7EED-4916-8D90-D0FD198B442C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF36C92A-7EED-4916-8D90-D0FD198B442C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF36C92A-7EED-4916-8D90-D0FD198B442C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF36C92A-7EED-4916-8D90-D0FD198B442C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8C70B0-9072-49B3-A7D2-B3F51B6E4268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8C70B0-9072-49B3-A7D2-B3F51B6E4268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8C70B0-9072-49B3-A7D2-B3F51B6E4268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8C70B0-9072-49B3-A7D2-B3F51B6E4268}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
