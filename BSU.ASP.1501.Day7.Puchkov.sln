@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericQueue", "GenericQueu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomGenericQueue.ConsoleUI", "CustomGenericQueue.ConsoleUI\CustomGenericQueue.ConsoleUI.csproj", "{2E8C70B0-9072-49B3-A7D2-B3F51B6E4268}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearcher", "BinarySearcher\BinarySearcher.csproj", "{D2916D1A-DC7D-4D15-A12C-E2F66175A6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearcher.Tests", "BinarySearcher.Tests\BinarySearcher.Tests.csproj", "{108F24AA-827E-4946-9BE0-8242C7A65A38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{2E8C70B0-9072-49B3-A7D2-B3F51B6E4268}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E8C70B0-9072-49B3-A7D2-B3F51B6E4268}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E8C70B0-9072-49B3-A7D2-B3F51B6E4268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2916D1A-DC7D-4D15-A12C-E2F66175A6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2916D1A-DC7D-4D15-A12C-E2F66175A6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2916D1A-DC7D-4D15-A12C-E2F66175A6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2916D1A-DC7D-4D15-A12C-E2F66175A6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{108F24AA-827E-4946-9BE0-8242C7A65A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108F24AA-827E-4946-9BE0-8242C7A65A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108F24AA-827E-4946-9BE0-8242C7A65A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108F24AA-827E-4946-9BE0-8242C7A65A38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
