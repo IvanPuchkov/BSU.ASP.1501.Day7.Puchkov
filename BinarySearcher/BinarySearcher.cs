@@ -43,15 +43,7 @@ namespace BinarySearcher
                         comperedValue = enumerable.CompareTo(collection[mid]);
                     else
                     {
-                        dynamic lhs = key;
-                        try
-                        {
-                            comperedValue = lhs - collection[mid];
-                        }
-                        catch (Microsoft.CSharp.RuntimeBinder.RuntimeBinderException ex)
-                        {
-                            throw new InvalidOperationException($"Can't compare {typeof(T)}");
-                        }
+                        throw new InvalidOperationException();
                     }
                 }
                 if (comperedValue==0)
